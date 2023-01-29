@@ -2,12 +2,12 @@
  * Padding Resets
 */
 
-.typedream.content {
+.typedream.content.slate-root {
 	padding: 30px;
 }
 
-.typedream.content .slate-h1,
-.typedream.content .slate-p {
+.typedream.content.slate-root .slate-h1,
+.typedream.content.slate-root .slate-p {
     padding: 0;
 }
 
@@ -16,7 +16,7 @@
 */
 
 h1, 
-.typedream.content h1.slate-h1 {
+.typedream.content.slate-root h1.slate-h1 {
     font-size: clamp(2rem, 6vw, 6rem);
     line-height: 108%;
 }
