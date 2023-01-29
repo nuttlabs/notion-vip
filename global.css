@@ -22,8 +22,8 @@
 h1, 
 .typedream.content.slate-root h1.slate-h1 {
     font-size: 2.5em;
-    line-height: 108%;
-    marign-bottom: 20px;
+    line-height: 104%;
+    margin-bottom: 20px;
 }
 
 @media screen and (min-width: 376px) {
