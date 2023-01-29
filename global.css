@@ -1,5 +1,9 @@
+
+
 /*
+ * -------------------- \\
  * Padding Resets
+ * -------------------- //
 */
 
 .typedream.content.slate-root {
@@ -12,7 +16,9 @@
 }
 
 /*
- * Typography
+ * -------------------- \\
+ * Tyography
+ * -------------------- //
 */
 
 .typedream.content.slate-root {
@@ -26,7 +32,7 @@ h1,
     margin-bottom: 20px;
 }
 
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 400px) {
 
 	h1, 
 	.typedream.content.slate-root h1.slate-h1 {
