@@ -15,8 +15,22 @@
  * Typography
 */
 
+.typedream.content.slate-root {
+	font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
 h1, 
 .typedream.content.slate-root h1.slate-h1 {
-    font-size: clamp(2rem, 6vw, 6rem);
+    font-size: 2.5em;
     line-height: 108%;
+    marign-bottom: 20px;
+}
+
+@media screen and (min-width: 376px) {
+
+	h1, 
+	.typedream.content.slate-root h1.slate-h1 {
+		font-size: 6em;
+	}
+
 }
