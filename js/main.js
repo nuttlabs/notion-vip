@@ -4,7 +4,7 @@ window.addEventListener('load', () => {
 });
 
 function addVersionToStylesheets() {
-	document.querySelectorall('link[rel=stylesheet]').forEach( linkNode => {
+	document.querySelectorAll('link[rel=stylesheet]').forEach( linkNode => {
 		linkNode.setAttribute('href', linkNode.href + '?v=' + Date.now());
 	})
 }
