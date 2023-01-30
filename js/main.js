@@ -1,5 +1,5 @@
 window.addEventListener('load', () => {
-	addVersionToStylesheets();
+	// addVersionToStylesheets();
 	replaceNebulaGradients();
 	addGradientTextClass();
 });
