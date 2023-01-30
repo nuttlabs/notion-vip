@@ -17,6 +17,16 @@
 
 /*
  * -------------------- \\
+ * Colors
+ * -------------------- //
+*/
+
+:root {
+	--gradient--nVip: linear-gradient(135deg,#FD067F,#6523D7,#1EE7F6);
+}
+
+/*
+ * -------------------- \\
  * Tyography
  * -------------------- //
 */
@@ -27,7 +37,7 @@
 
 h1, 
 .typedream.content.slate-root h1.slate-h1 {
-    font-size: 2.5em;
+    font-size: 2.75em;
     line-height: 104%;
     margin-bottom: 20px;
 }
@@ -39,4 +49,10 @@ h1,
 		font-size: 5.5em;
 	}
 
+}
+
+/* Prevent cut-off on gradient text */
+span.paddedGradientText {
+	display: inline-block;
+	padding-right: 2px;
 }

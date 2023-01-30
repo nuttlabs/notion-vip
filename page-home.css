@@ -1,0 +1,24 @@
+form {
+    margin-top: 30px;
+}
+
+form label,
+form input {
+    display: block;
+}
+
+form label {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .84rem;
+}
+
+form input {
+    -webkit-appearance: none;
+    padding: 6px 0 5px 0;
+    font-size: 1.1em;
+    border: none;
+    width: min(100%, 300px);
+    border-bottom: 1px solid;
+    margin-bottom: 20px;
+}
