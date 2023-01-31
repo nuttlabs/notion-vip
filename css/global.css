@@ -1,4 +1,15 @@
+/*
+ * -------------------- \\
+ * -------------------- //
+ * Contents
+ * -------------------- \\
+ * -------------------- //
 
+ * Padding Resets
+ * Notion VIP Gradient
+ * Typography
+
+*/
 
 /*
  * -------------------- \\
@@ -17,12 +28,17 @@
 
 /*
  * -------------------- \\
- * Colors
+ * Notion VIP Gradient
  * -------------------- //
 */
 
 :root {
 	--gradient--nVip: linear-gradient(135deg,#FD067F,#6523D7,#1EE7F6);
+}
+
+.nVipGradient,
+.nVipGradient--text {
+    background-image: var(--gradient--nVip);
 }
 
 /*
