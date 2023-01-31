@@ -8,6 +8,8 @@
  * Padding Resets
  * Notion VIP Gradient
  * Typography
+ * Forms
+ * Header
 
 */
 
@@ -22,7 +24,8 @@
 }
 
 .typedream.content.slate-root .slate-h1,
-.typedream.content.slate-root .slate-p {
+.typedream.content.slate-root .slate-p,
+.typedream.content.slate-root .slate-button {
     padding: 0;
 }
 
@@ -34,15 +37,6 @@
 
 :root {
 	--gradient--nVip: linear-gradient(135deg,#FD067F,#6523D7,#1EE7F6);
-}
-
-.nVipGradient {
-    background-image: var(--gradient--NVip);
-}
-
-.textGradient {
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 /*
@@ -75,4 +69,24 @@ h1,
 span.paddedGradientText {
 	display: inline-block;
 	padding-right: 2px;
+}
+
+/*
+ * -------------------- \\
+ * Header
+ * -------------------- //
+*/
+
+/*
+ * -------------------- \\
+ * Forms
+ * -------------------- //
+*/
+
+form input {
+    -webkit-appearance: none;
+}
+
+button {
+    font-weight:bold;
 }
