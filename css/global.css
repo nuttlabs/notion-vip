@@ -36,9 +36,13 @@
 	--gradient--nVip: linear-gradient(135deg,#FD067F,#6523D7,#1EE7F6);
 }
 
-.nVipGradient,
-.nVipGradient--text {
+.nVipGradient {
     background-image: var(--gradient--nVip);
+}
+
+.textGradient {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /*
