@@ -1,6 +1,16 @@
 document.addEventListener('load', () => {
+
+   // TEMPORARY
+   addVersionsToStylesheets();
+
    applyNVipGradients();
 });
+
+funcation addVersionsToStylesheets() {
+   document.querySelectorAll('link[rel=stylesheet]').forEach( stylesheetNode => {
+        stylesheetNode.href += '?v=' + Date.now();
+    });
+}
 
 function applyNVipGradients() {
 
