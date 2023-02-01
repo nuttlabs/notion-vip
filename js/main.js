@@ -4,10 +4,10 @@ document.addEventListener('load', () => {
    addVersionsToStylesheets();
 
    applyNVipGradients();
-   
+
 });
 
-funcation addVersionsToStylesheets() {
+function addVersionsToStylesheets() {
    document.querySelectorAll('link[rel=stylesheet]').forEach( stylesheetNode => {
         stylesheetNode.href += '?v=' + Date.now();
     });
