@@ -1,5 +1,5 @@
 .p-home__formContainer {
-    max-width: 500px;
+    max-width: 400px;
     margin-left: auto;
 }
 
@@ -19,6 +19,7 @@ form label {
 }
 
 form input {
+    width: 100%;
     padding: 6px 0 5px 0;
     font-size: 1.1em;
     border: none;

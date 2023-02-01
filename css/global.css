@@ -15,12 +15,14 @@
 
 /*
  * -------------------- \\
- * Padding Resets
+ * Resets
  * -------------------- //
 */
 
 .typedream.content.slate-root {
-	padding: 30px;
+    max-width: calc(700px + 30px * 2);
+    margin: 0 auto;
+    padding: 50px 30px;
 }
 
 
@@ -38,7 +40,7 @@
 */
 
 :root {
-	--gradient--nVip: linear-gradient(135deg,#FD067F,#6523D7,#1EE7F6);
+    --gradient--nVip: linear-gradient(135deg,#FD067F,#6523D7,#1EE7F6);
 }
 
 /*
@@ -48,7 +50,7 @@
 */
 
 .typedream.content.slate-root {
-	font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 h1, 
@@ -60,17 +62,17 @@ h1,
 
 @media screen and (min-width: 768px) {
 
-	h1, 
-	.typedream.content.slate-root h1.slate-h1 {
-		font-size: 5.5em;
-	}
+    h1, 
+    .typedream.content.slate-root h1.slate-h1 {
+        font-size: 5.5em;
+    }
 
 }
 
 /* Prevent cut-off on gradient text */
 span.paddedGradientText {
-	display: inline-block;
-	padding-right: 2px;
+    display: inline-block;
+    padding-right: 2px;
 }
 
 /*
