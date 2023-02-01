@@ -4,6 +4,7 @@ document.addEventListener('load', () => {
    addVersionsToStylesheets();
 
    applyNVipGradients();
+   
 });
 
 funcation addVersionsToStylesheets() {
