@@ -1,6 +1,6 @@
 document.addEventListener('load', () => {
 
-   // TEMPORARY
+   // TEMPORARY: Prevent caching
    addVersionsToStylesheets();
 
    applyNVipGradients();
