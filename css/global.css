@@ -5,75 +5,9 @@
  * -------------------- \\
  * -------------------- //
 
- * Padding Resets
- * Notion VIP Gradient
- * Typography
- * Forms
- * Header
+ * 
 
 */
-
-/*
- * -------------------- \\
- * Resets
- * -------------------- //
-*/
-
-.typedream.content.slate-root {
-    max-width: calc(700px + 30px * 2);
-    margin: 0 auto;
-    padding: 50px 30px;
-}
-
-
-.typedream.content.slate-root .slate-container,
-.typedream.content.slate-root .slate-h1,
-.typedream.content.slate-root .slate-p,
-.typedream.content.slate-root .slate-button {
-    padding: 0;
-}
-
-/*
- * -------------------- \\
- * Notion VIP Gradient
- * -------------------- //
-*/
-
-:root {
-    --gradient--nVip: linear-gradient(135deg,#FD067F,#6523D7,#1EE7F6);
-}
-
-/*
- * -------------------- \\
- * Tyography
- * -------------------- //
-*/
-
-.typedream.content.slate-root {
-    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-}
-
-h1, 
-.typedream.content.slate-root h1.slate-h1 {
-    font-size: 2.75em;
-    line-height: 104%;
-    margin-bottom: 20px;
-}
-
-@media screen and (min-width: 768px) {
-
-    h1, 
-    .typedream.content.slate-root h1.slate-h1 {
-        font-size: 5.5em;
-    }
-
-}
-
-/* Prevent cut-off on gradient text */
-span.paddedGradientText {
-    display: inline-block;
-    padding-right: 2px;
-}
 
 /*
  * -------------------- \\
@@ -81,16 +15,6 @@ span.paddedGradientText {
  * -------------------- //
 */
 
-/*
- * -------------------- \\
- * Forms
- * -------------------- //
-*/
-
-form input {
-    -webkit-appearance: none;
-}
-
-button {
-    font-weight:bold;
+a.navbar-brand img[class*=sw-width-] {
+    width: 120px!important;
 }
