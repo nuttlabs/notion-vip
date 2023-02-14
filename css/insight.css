@@ -1,0 +1,7 @@
+/* Topics divider */
+.p-insight__topicDivider {
+    font-size: 13px;
+    padding-top: .5px;
+    font-style: italic;
+    margin: 0 7px 0 5px;
+}
