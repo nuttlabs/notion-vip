@@ -5,16 +5,24 @@
  * -------------------- \\
  * -------------------- //
 
- * 
+ * Insight: Single
 
 */
 
 /*
  * -------------------- \\
- * Header
+ * Insight: Single
  * -------------------- //
 */
 
-a.navbar-brand img[class*=sw-width-] {
-    width: 120px!important;
+/* Diagonal between topics */
+.p-insight__topicslist > div:not(:last-of-type):after {
+    content: '/';
+    display: inline-block;
+    font-weight: 300;
+    margin: 0 8px 0 6px;
+    font-size: .8em;
+    position: relative;
+    bottom: 0.5px;
+    transform: rotate(10deg);
 }
