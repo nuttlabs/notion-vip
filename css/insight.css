@@ -5,3 +5,22 @@
     font-style: italic;
     margin: 0 7px 0 5px;
 }
+
+/* TOC */
+.nVIP__TOC,
+.nVIP__TOC ul {
+    list-style-type: none;
+}
+
+.nVIP__TOC {
+    padding-left: 0;
+}
+
+.nVIP__TOC li {
+    padding-left: 14px;
+    border-left: 3px solid var(--color--pink);
+}
+
+.nVIP__TOC a {
+    border: none;
+}
