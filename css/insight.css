@@ -1,4 +1,9 @@
-/* Topics divider */
+/*
+ * ----------------------------- \\
+ * Topics divider
+ * ----------------------------- //
+*/
+
 .p-insight__topicDivider {
     font-size: 13px;
     padding-top: .5px;
@@ -6,21 +11,49 @@
     margin: 0 7px 0 5px;
 }
 
-/* TOC */
+/*
+ * ----------------------------- \\
+ * / Topics Divider
+ * ----------------------------- //
+*/
+
+/*
+ * ----------------------------- \\
+ * TOC
+ * ----------------------------- //
+*/
+
 .nVIP__TOC,
 .nVIP__TOC ul {
     list-style-type: none;
 }
 
-.nVIP__TOC {
-    padding-left: 0;
-}
-
 .nVIP__TOC li {
     padding-left: 14px;
-    border-left: 3px solid var(--color--pink);
+    border-left-width: 2px;
+    border-left-style: solid;
+    transition: all .4s;
+    opacity: .6;
+}
+
+.nVIP__TOC li:hover {
+    opacity: 1;
+}
+
+.nVIP__TOC > li {
+    border-color: var(--color--pink);
+}
+
+.nVIP__TOC li + ul > li {
+    border-color: var(--color--purple);
 }
 
 .nVIP__TOC a {
     border: none;
 }
+
+/*
+ * ----------------------------- \\
+ * / TOC
+ * ----------------------------- //
+*/

@@ -5,6 +5,8 @@
  * -------------------- \\
  * -------------------- //
 
+ * Colors
+ * Webflow Resets
  * HTML Elements
 
  * -------------------- \\
@@ -23,11 +25,32 @@
 
 :root {
     --color--pink: #DE5783;
+    --color--purple: #985EF4;
+    --color--blue: #7FDDEF;
+    --color--yellow: #F5F073;
+    --color--orange: #EDB27D;
+    --color--gradient: linear-gradient( var(--color--blue), var(--color--purple), var(--color--pink), var(--color--yellow) );
 }
 
 /*
  * -------------------- \\
- * / Colors
+ * / Webflow Resets
+ * -------------------- //
+*/
+
+.w-richtext figure {
+    max-width: none;
+}
+
+/*
+ * -------------------- \\
+ * Colors
+ * -------------------- //
+*/
+
+/*
+ * -------------------- \\
+ * / Webflow Resets
  * -------------------- //
 */
 
@@ -43,6 +66,12 @@ ol ol {
     margin-bottom: 0;
 }
 
+/* Figures */
+figure {
+    margin: 30px auto;
+}
+
+/* Horizontal rules */
 hr {
     border: none;
     border-top: 1px solid #DDD;
