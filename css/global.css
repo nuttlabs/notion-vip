@@ -22,7 +22,7 @@
 */
 
 :root {
-    --color--pink: DE5783;
+    --color--pink: #DE5783;
 }
 
 /*
@@ -36,6 +36,12 @@
  * HTML Elements
  * -------------------- //
 */
+
+/* Nested lists */
+ul ul,
+ol ol {
+    margin-bottom: 0;
+}
 
 hr {
     border: none;
