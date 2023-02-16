@@ -66,6 +66,12 @@ ol ol {
     margin-bottom: 0;
 }
 
+/* Nested list: First item */
+ul li + ul li:first-of-type,
+ol li + ol li:first-of-type{
+    margin-top: 0;
+}
+
 /* Code */
 code {
     color: var(--color--pink);

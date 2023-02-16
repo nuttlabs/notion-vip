@@ -23,6 +23,10 @@
  * ----------------------------- //
 */
 
+.nVIP__TOC {
+    padding-left: 10px;
+}
+
 .nVIP__TOC,
 .nVIP__TOC ul {
     list-style-type: none;
@@ -32,25 +36,21 @@
     padding-left: 14px;
     border-left-width: 2px;
     border-left-style: solid;
-    transition: all .4s;
-    opacity: .6;
+    border-color: rgba(0,0,0,.1);
+    opacity: .7;
+    transition: all .3s;
 }
 
 .nVIP__TOC li:hover {
     opacity: 1;
-}
-
-.nVIP__TOC > li {
-    border-color: var(--color--pink);
-}
-
-.nVIP__TOC li + ul > li {
     border-color: var(--color--purple);
 }
 
-.nVIP__TOC a {
+.nVIP__TOC li a {
     border: none;
+    color: var(--color--pink);
 }
+
 
 /*
  * ----------------------------- \\
