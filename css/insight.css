@@ -25,6 +25,8 @@
 
 .nVIP__TOC {
     padding-left: 20px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #eee;
     font-size: .95em;
 }
 
