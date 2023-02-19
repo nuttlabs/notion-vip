@@ -119,6 +119,14 @@ figure.youTubeContainer iframe {
     left: 0;
 }
 
+@media screen and (min-width: 768px) {
+
+    figure.youTubeContainer {
+        margin: 50px auto;
+    }
+    
+}
+
 /*
  * -------------------- \\
  * / YouTube Embeds
