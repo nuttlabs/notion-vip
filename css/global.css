@@ -47,6 +47,12 @@
 
 .w-richtext figure {
     max-width: none;
+    display: flex;
+    justify-content: center;
+}
+
+.w-richtext figure img {
+    width: auto;
 }
 
 /*
