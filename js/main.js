@@ -1,4 +1,3 @@
-
 document.addEventListener('load', () => {
     console.log("Document loaded");
     freezeBodyOnMenuOpen();
