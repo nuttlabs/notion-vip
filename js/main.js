@@ -1,5 +1,5 @@
 
-document.addEventListener('load', () => {
+window.addEventListener('load', () => {
     console.log("Document loaded");
     freezeBodyOnMenuOpen();
 });
