@@ -1,4 +1,4 @@
-console.log("Progres..");
+console.log("Progres.");
 
 window.addEventListener('load', () => {
     console.log("Window loaded");
