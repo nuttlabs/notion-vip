@@ -1,3 +1,5 @@
+console.log("Progres..");
+
 document.addEventListener('load', () => {
     console.log("Document loaded");
     freezeBodyOnMenuOpen();
