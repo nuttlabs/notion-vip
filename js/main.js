@@ -1,6 +1,6 @@
 
 document.addEventListener('load', () => {
-    console.log("Window loaded");
+    console.log("Document loaded");
     freezeBodyOnMenuOpen();
 });
 
