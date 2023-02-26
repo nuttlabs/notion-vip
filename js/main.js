@@ -1,8 +1,8 @@
-console.log("Progres.");
-
 window.addEventListener('load', () => {
-    console.log("Window loaded");
+
     freezeBodyOnMenuOpen();
+    addTopicDividers();
+
 });
 
 function freezeBodyOnMenuOpen() {
@@ -18,5 +18,22 @@ function freezeBodyOnMenuOpen() {
     });
 
     observer.observe(menu, {attributes: true});
+
+}
+
+function addTopicDividers() {
+
+    let topicDivs = document.querySelectorAll('.topicslist > div:not(:last-of-type)');
+
+    if( topicDivs.length ) {
+
+        topicDivs.forEach( (topicDiv) => {
+            let divider = document.createElement('div');
+            divider.classList.add('topicDivider');
+            divider.innerHTML = "/";
+            topicDiv.after(divider);
+        });
+
+    }
 
 }
