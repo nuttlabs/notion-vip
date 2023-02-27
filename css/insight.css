@@ -49,7 +49,7 @@
  * ----------------------------- //
 */
 
-.p-insight .section.is--textcontent > div:first-child:not(.p-insight__intro) {
+.p-insight .section.is--textcontent > div > :first-child:not(.p-insight__intro):not(.youTubeContainer) {
     margin-top: 50px;
 }
 
