@@ -11,6 +11,7 @@ function freezeBodyOnMenuOpen() {
 
     let observer = new MutationObserver( (mutationList, observer) => {
         if( document.querySelector('.c-header__menu').style.display == 'flex' ){
+            document.body.style.width = '100%';
             document.body.style.position = 'fixed';
         } else {
             document.body.style.position = 'static';
