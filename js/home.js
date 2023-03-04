@@ -8,7 +8,7 @@ function configureFormHandler() {
 
 	subscribeForm = document.querySelector("form[name='wf-form-Newsletter-Subscription']");
 
-	subscribeForm.setAttribute('onsubmit', 'false');
+	subscribeForm.setAttribute('onsubmit', 'return false');
 
 }
 
