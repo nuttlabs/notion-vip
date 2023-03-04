@@ -1,14 +1,14 @@
 let subscribeForm = {};
 
 window.addEventListener('load', () => {
-	configureFormHandler();
+	// configureFormHandler();
 });
 
 function configureFormHandler() {
 
 	subscribeForm = document.querySelector("form[name='wf-form-Newsletter-Subscription']");
 
-	subscribeForm.setAttribute('onsubmit', 'return false');
+	subscribeForm.setAttribute('onsubmit', 'validateEmail()');
 
 }
 
