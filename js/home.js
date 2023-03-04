@@ -18,7 +18,11 @@ function validateEmail() {
 
 	let emailPattern = /.+@[a-z0-9]{2,}\.[a-z]{2,}/i;
 
-	if( ! enteredEmail.match(emailPattern) ) {
+	let isValidEmail = enteredEmail.match(emailPattern) != null;
+
+	console.log(isValidEmail);
+
+	if( isValidEmail ) {
 		console.log("Bad email!");
 		return false;
 	}
