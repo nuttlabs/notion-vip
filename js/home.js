@@ -27,7 +27,9 @@ function handleSubscription(form) {
 	if( ! isValidEmail ) {
 		let emailValidationMessage = document.querySelector('.p-home__form__emailinvalid');
 		emailValidationMessage.style.display = 'block';
-		emailValidationMessage.style.opacity = 1;
+		setTimeout( () => {
+			emailValidationMessage.style.opacity = 1;
+		}, 200);
 	} else {
 		form.submit();
 	}
