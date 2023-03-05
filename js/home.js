@@ -1,5 +1,7 @@
 document.onload = () => {
 
+	console.log("Progress.");
+
 	configureFormHandlers();
 
 }
