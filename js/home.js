@@ -23,18 +23,21 @@ function validateSubscription(form) {
 
 	let emailPattern = /.+@[a-z0-9]{2,}\.[a-z]{2,}/i;
 
+	let emailValidationMessage = document.querySelector('.p-home__form__emailinvalid');
+
 	let isValidEmail = emailPattern.test(enteredEmail);
 
 	if( ! isValidEmail ) {
-		let emailValidationMessage = document.querySelector('.p-home__form__emailinvalid');
 		emailValidationMessage.style.display = 'block';
 		setTimeout( () => {
 			emailValidationMessage.style.opacity = 1;
 		}, 200);
 	} else {
 		sendToMailerLite(enteredName, enteredEmail).then( (response) => console.log(response) );
-		// form.subscribeBtn.setAttribute('type', 'submit');
-		// form.subscribeBtn.click();
+		form.subscribeBtn.setAttribute('type', 'submit');
+		form.subscribeBtn.click();
+		emailValidationMessage.style.opacity = 0;
+
 	}
 
 }
