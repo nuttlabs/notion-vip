@@ -32,9 +32,9 @@ function validateSubscription(form) {
 			emailValidationMessage.style.opacity = 1;
 		}, 200);
 	} else {
-		sendToMailerLite(enteredName, enteredEmail);
-		form.subscribeBtn.setAttribute('type', 'submit');
-		form.subscribeBtn.click();
+		sendToMailerLite(enteredName, enteredEmail).then( (response) => console.log(response) );
+		// form.subscribeBtn.setAttribute('type', 'submit');
+		// form.subscribeBtn.click();
 	}
 
 }
@@ -57,6 +57,14 @@ function sendToMailerLite(name, email) {
 		}`
 	}
 
-	fetch( 'https://connect.mailerlite.com/api/subscribers', fetchOptions );
+	return new Promise( (resolve, reject) => {
+
+		fetch( 'https://connect.mailerlite.com/api/subscribers', fetchOptions )
+			.then( (response) => response.json() )
+			.then( (response) => {
+				resolve(response);
+			});
+
+	});
 
 }
