@@ -31,7 +31,8 @@ function validateSubscription(form) {
 			emailValidationMessage.style.opacity = 1;
 		}, 200);
 	} else {
-		form.submit();
+		form.subscribeBtn.setAttribute('type', 'submit');
+		form.subscribeBtn.click();
 		// submitForm(form);
 	}
 
