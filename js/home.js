@@ -10,27 +10,18 @@ function configureFormHandlers() {
 
 	form.subscribeBtn.setAttribute('type', 'button');
 
+	form.subscribeBtn.onclick = handleSubscription(form);
+
 }
 
-function handleSubscription(event) {
-
-	let form = event.target;
-
-	console.log(form);
+function handleSubscription(form) {
 
 	let enteredEmail = form.email.value;
 
 	let emailPattern = /.+@[a-z0-9]{2,}\.[a-z]{2,}/i;
 
-	let isValidEmail = enteredEmail.match(emailPattern) != null;
+	let isValidEmail = emailPattern.test(enteredEmail);
 
 	console.log(isValidEmail);
-
-	return false;
-
-	if( isValidEmail ) {
-		console.log("Bad email!");
-		return false;
-	}
 
 }
