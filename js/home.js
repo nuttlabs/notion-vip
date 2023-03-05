@@ -1,4 +1,4 @@
-document.onload = () => {
+window.onload = () => {
 
 	console.log("Progress.");
 
