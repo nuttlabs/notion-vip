@@ -1,14 +1,12 @@
 window.onload = () => {
 
-	console.log("Progress.");
-
 	configureFormHandlers();
 
 }
 
 function configureFormHandlers() {
 
-	let form = document.getElementById('subscriptionForm');
+	let form = document.getElementById('subscribeForm');
 
 	form.subscribeBtn.setAttribute('type', 'button');
 
