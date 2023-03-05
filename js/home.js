@@ -10,7 +10,9 @@ function configureFormHandlers() {
 
 	form.subscribeBtn.setAttribute('type', 'button');
 
-	form.subscribeBtn.onclick = handleSubscription(form);
+	form.subscribeBtn.onclick = function() {
+		handleSubscription(form);
+	}
 
 }
 
