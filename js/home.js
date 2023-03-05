@@ -25,7 +25,7 @@ function handleSubscription(form) {
 	let isValidEmail = emailPattern.test(enteredEmail);
 
 	if( ! isValidEmail ) {
-		let emailValidationMessage = document.querySelector('.p-home__form__emailInvalid');
+		let emailValidationMessage = document.querySelector('.p-home__form__emailinvalid');
 		emailValidationMessage.style.display = 'block';
 		emailValidationMessage.style.opacity = 1;
 	} else {
