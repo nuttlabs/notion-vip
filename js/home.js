@@ -16,6 +16,8 @@ function configureFormHandlers() {
 
 function handleSubscription(form) {
 
+	console.log("Processing form.");
+
 	let enteredEmail = form.email.value;
 
 	let emailPattern = /.+@[a-z0-9]{2,}\.[a-z]{2,}/i;
