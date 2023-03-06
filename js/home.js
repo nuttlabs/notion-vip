@@ -21,7 +21,7 @@ function advanceToPart2() {
 		part2.style.display = 'block';
 
 		setTimeout( () => {
-			part2.style.opacity = '0';
+			part2.style.opacity = '1';
 		}, 200);
 
 	}, 200);
