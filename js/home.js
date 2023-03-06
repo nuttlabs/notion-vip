@@ -48,7 +48,7 @@ function advanceToPart2() {
 
 function displayEmailError() {
 
-	let emailError = document.querySelector('.p-home__form__emailError');
+	let emailError = document.querySelector('.p-home__form__emailerror');
 
 	emailError.style.opacity = '1';
 
