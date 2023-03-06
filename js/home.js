@@ -4,7 +4,25 @@ function addButtonListener() {
 
 	let subscribeBtn  = document.getElementById('subscribeBtn');
 
-	subscribeBtn.onclick = advanceToPart2;
+	subscribeBtn.onclick = function() {
+
+		if( isValidEmail() ) {
+			advanceToPart2();
+		} else {
+			displayEmailError();
+		}
+
+	}
+
+}
+
+function isValidEmail() {
+
+	let emailTestPattern = /.+@[a-z0-9]{2,}\.[a-z]{2,}$/i;
+
+	let enteredEmail = document.getElementById('email').value;
+
+	return emailTestPattern.test(enteredEmail);
 
 }
 
@@ -22,8 +40,16 @@ function advanceToPart2() {
 
 		setTimeout( () => {
 			part2.style.opacity = '1';
-		}, 200);
+		}, 300);
 
-	}, 200);
+	}, 300);
+
+}
+
+function displayEmailError() {
+
+	let emailError = document.querySelector('.p-home__form__emailError');
+
+	emailError.style.opacity = '1';
 
 }
