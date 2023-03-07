@@ -82,11 +82,11 @@ function sendToMailerLite() {
 			authorization: 'Bearer ' + mailerLiteToken
 		},
 		body: `{
-			email: "${enteredEmail}",
-			fields: {
-				'First Name': "${enteredName}"
+			"email": "${enteredEmail}",
+			"fields": {
+				"First Name": "${enteredName}"
 			},
-			groups: [
+			"groups": [
 				"81656172659082806"
 			]
 		}`
