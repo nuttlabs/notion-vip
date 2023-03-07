@@ -2,6 +2,7 @@ window.addEventListener('load', () => {
 
     freezeBodyOnMenuOpen();
     addTopicDividers();
+    addFooterYear();
 
 });
 
@@ -35,5 +36,17 @@ function addTopicDividers() {
         });
 
     }
+
+}
+
+function addFooterYear() {
+    
+    let footer = document.querySelector('.c-footer');
+
+    if( footer ) {
+        let currentDate = new Date();
+        let currentYear = currentDate.getFullYear();
+        footer.innerHTML = footer.innerHTML.replace('©', '©' + currentYear);
+    };
 
 }
