@@ -92,6 +92,8 @@ function sendToMailerLite() {
 		}`
 	}
 
+	console.log(fetchOptions);
+
 	fetch('https://connect.mailerlite.com/api/subscribers', fetchOptions)
 		.then( (response) => response.json() )
 		.then( (response) => console.log(response) );
