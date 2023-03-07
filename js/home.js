@@ -64,8 +64,15 @@ function addFormListener() {
 
 	subscribeForm = document.getElementById('subscribeForm');
 
-	subscribeForm.onsubmit = sendToMailerLite;
+	subscribeForm.onsubmit = function() {
+		hideSubheading();
+		sendToMailerLite();
+	}
 
+}
+
+function hideSubheading() {
+	document.querySelector('.subheading').style.display = 'none';
 }
 
 function sendToMailerLite() {
