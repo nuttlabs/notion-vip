@@ -4,6 +4,7 @@ let enteredEmail = '';
 window.addEventListener('load', () => {
 	addButtonListener();
 	addFormListener();
+	disableReturnKey();
 });
 
 function addButtonListener() {
@@ -68,6 +69,17 @@ function addFormListener() {
 		hideSubheading();
 		sendToMailerLite();
 	}
+
+}
+
+function disableReturnKey() {
+
+	document.addEventListener('keydown', (event) => {
+	  if( event.which == 13 ) {
+	      event.preventDefault();
+	  }
+	    
+	} );
 
 }
 
