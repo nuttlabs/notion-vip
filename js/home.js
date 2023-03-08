@@ -13,10 +13,6 @@ function addButtonListener() {
 
 	subscribeBtn.onclick = function() {
 
-		let tempVar = passesValidation();
-
-		console.log(tempVar);
-
 		if( passesValidation() ) {
 			advanceToPart2();
 		} else {
@@ -34,7 +30,7 @@ function passesValidation() {
 	enteredEmail = document.getElementById('email').value;
 	let isValidEmail = emailTestPattern.test(enteredEmail);
 
-	return( isValidEmail && subscribeForm.firstName.length );
+	return( isValidEmail && subscribeForm.firstName.length > 0 );
 
 
 }
