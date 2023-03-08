@@ -13,6 +13,8 @@ function addButtonListener() {
 
 	subscribeBtn.onclick = function() {
 
+		return passesValidation();
+
 		if( passesValidation() ) {
 			advanceToPart2();
 		} else {
