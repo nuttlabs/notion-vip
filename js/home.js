@@ -13,23 +13,25 @@ function addButtonListener() {
 
 	subscribeBtn.onclick = function() {
 
-		if( isValidEmail() ) {
+		if( passesValidation() ) {
 			advanceToPart2();
 		} else {
-			displayEmailError();
+			displayValidationError();
 		}
 
 	}
 
 }
 
-function isValidEmail() {
+function passesValidation() {
 
+	// Email validation
 	let emailTestPattern = /.+@[a-z0-9]{2,}\.[a-z]{2,}$/i;
-
 	enteredEmail = document.getElementById('email').value;
+	let isValidEmail = emailTestPattern.test(enteredEmail);
 
-	return emailTestPattern.test(enteredEmail);
+	return( isValidEmail && subscribeForm.firstName.length );
+
 
 }
 
@@ -53,11 +55,11 @@ function advanceToPart2() {
 
 }
 
-function displayEmailError() {
+function displayValidationError() {
 
-	let emailError = document.querySelector('.p-home__form__emailerror');
+	let validationError = document.querySelector('.p-home__form__validationerror');
 
-	emailError.style.opacity = '1';
+	validationError.style.opacity = '1';
 
 }
 
