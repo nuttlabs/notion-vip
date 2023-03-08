@@ -69,6 +69,7 @@ function addFormListener() {
 	subscribeForm.onsubmit = function() {
 		hideSubheading();
 		sendToMailerLite();
+		setTimeout( displayConfirmation, 200 );
 	}
 
 }
@@ -86,6 +87,10 @@ function disableReturnKey() {
 
 function hideSubheading() {
 	document.querySelector('.subheading').style.display = 'none';
+}
+
+function displayConfirmation() {
+	document.querySelector('p-home__formConfirmation').style.opacity = '1';
 }
 
 function sendToMailerLite() {
