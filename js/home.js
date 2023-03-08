@@ -13,13 +13,15 @@ function addButtonListener() {
 
 	subscribeBtn.onclick = function() {
 
-		console.log('Progress.');
+		let tempVar = passesValidation();
 
-		/* if( passesValidation() ) {
+		console.log(tempVar);
+
+		if( passesValidation() ) {
 			advanceToPart2();
 		} else {
 			displayValidationError();
-		} */
+		}
 
 	}
 
