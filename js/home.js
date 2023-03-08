@@ -13,7 +13,7 @@ function addButtonListener() {
 
 	subscribeBtn.onclick = function() {
 
-		console.log( (passesValidation() );
+		console.log( passesValidation() );
 
 		if( passesValidation() ) {
 			advanceToPart2();
