@@ -119,6 +119,11 @@ aside {
     background: rgba(152, 94, 244, .1);
 }
 
+aside ol:last-of-type,
+aside li:last-of-type {
+    margin-bottom: 0;
+}
+
 /* Horizontal rules */
 hr {
     border: none;
