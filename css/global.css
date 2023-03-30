@@ -100,18 +100,22 @@ figure {
 }
 
 /* Figure captions */
+figcaption,
+figcaption code {
+    color: #AAA;
+}
+
 figcaption {
     font-size: .82em;
-    color: #AAA;
     text-align: left;
 }
 
 /* Asides */
 aside {
     font-size: .9em;
-    padding: 20px;
-    color: #555;
-    background: #FAFAFA;
+    padding: 26px;
+    color: rgb(12 126 148);
+    background: rgba(127,221,239,.15);
 }
 
 /* Horizontal rules */
