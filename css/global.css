@@ -113,10 +113,10 @@ figcaption {
 /* Asides */
 aside {
     font-weight: 400;
-    font-size: .88em;
+    font-size: .86em;
     padding: 26px;
-    color: rgb(12 126 148);
-    background: rgba(127,221,239,.15);
+    color: rgb(77 37 142);
+    background: rgba(152, 94, 244, .1);
 }
 
 /* Horizontal rules */
