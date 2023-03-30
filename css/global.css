@@ -48,8 +48,6 @@
 
 .w-richtext figure {
     max-width: none;
-    display: flex;
-    justify-content: center;
 }
 
 .w-richtext figure img {
@@ -99,6 +97,13 @@ code {
 /* Figures */
 figure {
     margin: 30px auto;
+}
+
+/* Figure captions */
+figcaption {
+    font-size: .82em;
+    color: #AAA;
+    text-align: left;
 }
 
 /* Horizontal rules */
