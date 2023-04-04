@@ -38,7 +38,7 @@ function modifyTopics() {
             // Add dividers
             let divider = document.createElement('span');
             divider.classList.add('topicDivider');
-            divider.innerHTML = "/";
+            divider.innerHTML = "//";
             topicDiv.prepend(divider);
 
         });
