@@ -1,7 +1,7 @@
 window.addEventListener('load', () => {
 
     freezeBodyOnMenuOpen();
-    addTopicDividers();
+    modifyTopics();
     addFooterYear();
 
 });
@@ -22,17 +22,25 @@ function freezeBodyOnMenuOpen() {
 
 }
 
-function addTopicDividers() {
+function modifyTopics() {
 
     let topicDivs = document.querySelectorAll('.topicslist > div');
 
     if( topicDivs.length ) {
 
         topicDivs.forEach( (topicDiv) => {
+
+            // Drop the "Notion" from "Notion Stakeholder Series"
+            if( topicDiv.firstChild.innerHTML == 'Notion Stakeholder Series' ) {
+                topicDiv.firstChild.innerHTML = 'Stakeholder Series';
+            }
+
+            // Add dividers
             let divider = document.createElement('span');
             divider.classList.add('topicDivider');
             divider.innerHTML = "/";
             topicDiv.prepend(divider);
+
         });
 
     }
