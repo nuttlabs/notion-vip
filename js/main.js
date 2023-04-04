@@ -24,15 +24,15 @@ function freezeBodyOnMenuOpen() {
 
 function addTopicDividers() {
 
-    let topicDivs = document.querySelectorAll('.topicslist > div:not(:last-of-type)');
+    let topicDivs = document.querySelectorAll('.topicslist > div');
 
     if( topicDivs.length ) {
 
         topicDivs.forEach( (topicDiv) => {
-            let divider = document.createElement('div');
+            let divider = document.createElement('span');
             divider.classList.add('topicDivider');
             divider.innerHTML = "/";
-            topicDiv.after(divider);
+            topicDiv.prepend(divider);
         });
 
     }
