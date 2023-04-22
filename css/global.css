@@ -145,6 +145,8 @@ hr {
 
 .topicDivider {
     font-size: 13px;
+    font-weight: 300;
+    letter-spacing: -0.5px;
     padding-top: .5px;
     font-style: italic;
     margin: 0 7px 0 5px;
