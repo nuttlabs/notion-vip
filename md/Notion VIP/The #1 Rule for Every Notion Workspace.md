@@ -15,7 +15,7 @@ Take a critical look at any leading productivity app, and you’ll see that it�
 - Customer support systems like Intercom facilitate **tickets**.
 - In the case of Monday.com, you explicitly select the entities you want to manage.
 
-![]()
+![](https://assets.notion.vip/assets/insights/1-rule/notion-vip_monday-entity-selection.png)
 
 Behind the scenes, these apps organize your information in **databases**. The app is simply a **graphical interface** for the data.
 
@@ -85,13 +85,19 @@ _Finance_
 
 ### Supercharged by Relations
 
+![](https://assets.notion.vip/assets/insights/1-rule/notion-vip_common-databases.jpg)
+
 Relating these master databases unleashes the unique power of Notion to create a system that’s greater than the sum of its parts. 
 
 It allows you to maintain a single source of truth for each object type, and most notably, it automates your contextual views. Using database templates, you can automatically populate every database page with the related items from other databases.
 
 That means each organization can display its related people and projects:
 
+![](https://assets.notion.vip/assets/insights/1-rule/notion-vip_bulletprof_project.jpg)
+
 And each project can display its related tasks and resources:
+
+![](https://assets.notion.vip/assets/insights/1-rule/notion-vip_bulletproof_org.jpg)
 
 ### Bulletproof
 
