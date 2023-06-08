@@ -89,6 +89,11 @@ ol li + ol li:first-of-type{
     margin-top: 0;
 }
 
+/* Blockquote */
+blockquote p:last-of-type {
+    margin-bottom: 0;
+}
+
 /* Code */
 code {
     color: var(--color--pink);
