@@ -1,4 +1,6 @@
 
+\<!-- youTube(rStoGL1Wogk) --\>
+
 Notion is essentially an app for creating custom apps. It’s a “no-code app builder.”
 
 The apps you create organize your information and streamline your workflow. They’re “productivity apps.”
@@ -25,6 +27,8 @@ Without exception, that’s how every Notion workspace should work:
 
 > Structure all information in related master databases. Access it through contextual views.
 
+Many of the apps inspired by Notion are preconfigured with this strategy. [Anytype](https://anytype.io/), [Capacities](https://capacities.io/) and [Tana](https://tana.inc/) are among the many emerging competitors built around core object types.
+
 ### Endless Benefits
 The benefits of this approach are immense beyond measure. To name a few, it keeps your information:
 
@@ -38,6 +42,7 @@ The benefits of this approach are immense beyond measure. To name a few, it keep
 - _Beautiful_
 
 ### Common Databases
+
 I include these databases in nearly every Notion workspace:
 
 - _Relationship Management_
