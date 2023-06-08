@@ -49,6 +49,12 @@
  * ----------------------------- //
 */
 
+iframe {
+    display: block;
+    aspect-ratio: 16 / 9;
+    margin: 50px auto;
+}
+
 @media screen and (min-width: 768px) {
     
     .p-insight .section.is--textcontent > div > :first-child:not(.p-insight__intro):not(.youTubeContainer) {
