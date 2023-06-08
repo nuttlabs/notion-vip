@@ -103,7 +103,7 @@ And each project can display its related tasks and resources:
 
 ### Bulletproof
 
-Related master databases is the foundational principal of my Bulletproof Method, which underpins the widely employed [Bulletproof Workspace](https://notion.vip/bulletproof) template.
+Related master databases is the foundational principle of my Bulletproof Method, which underpins the widely employed [Bulletproof Workspace](https://notion.vip/bulletproof) template.
 
 Members of Notion A-to-Z enjoy access to the template, and more importantly, a deeper dive into the implementation of Bulletproof so they can expand it to serve their unique needs. If you’ve yet to join, [hop aboard](https://premier.notion.vip/a-to-z) and make the most of Notion. 💪
 
