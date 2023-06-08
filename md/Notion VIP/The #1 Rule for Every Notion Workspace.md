@@ -45,33 +45,43 @@ The benefits of this approach are immense beyond measure. To name a few, it keep
 
 I include these databases in nearly every Notion workspace:
 
-- _Relationship Management_
-	- **People**
-	- **Organizations**
-- _Project Management_
-	- **Projects**
-	- **Tasks**
-- _[PARA](https://fortelabs.com/blog/para/)-Inspired_
-	- **Areas**
-	- **Resources**
-- **Events**
+- Events
+
+_Relationship Management_
+
+- People
+- Organizations
+
+_Project Management_
+
+- Projects
+- Tasks
+_[PARA](https://fortelabs.com/blog/para/)-Inspired_
+- Areas
+- Resources
 
 I commonly use these as well:
 
-- _Time Periods_
-	- **Days**
-	- **Months**
-	- **Quarters**
-	- **Years**
-- _Goal Tracking_
-	- **Objectives**
-	- **Key Results**
-- _Finance_
-	- **Accounts**
-	- **Transactions**
-	- **Invoices**
-- **Posts**
-- **Products**
+- Posts
+- Products
+
+_Time Periods_
+
+- Days
+- Months
+- Quarters
+- Years
+
+_Goal Tracking_
+
+- Objectives
+- Key Results
+
+_Finance_
+
+- Accounts
+- Transactions
+- Invoices
 
 ### Supercharged by Relations
 
