@@ -43,41 +43,43 @@ The benefits of this approach are immense beyond measure. To name a few, it keep
 
 ### Common Databases
 
-I include these databases in nearly every Notion workspace:
+**I include these databases in nearly every Notion workspace:**
 
 - Events
 
-_Relationship Management_
+_Relationship Management:_
 
 - People
 - Organizations
 
-_Project Management_
+_Project Management:_
 
 - Projects
 - Tasks
-_[PARA](https://fortelabs.com/blog/para/)-Inspired_
+
+_[PARA](https://fortelabs.com/blog/para/)-Inspired:_
+
 - Areas
 - Resources
 
-I commonly use these as well:
+**I commonly use these as well:**
 
 - Posts
 - Products
 
-_Time Periods_
+_Time Periods:_
 
 - Days
 - Months
 - Quarters
 - Years
 
-_Goal Tracking_
+_Goal Tracking:_
 
 - Objectives
 - Key Results
 
-_Finance_
+_Finance:_
 
 - Accounts
 - Transactions
