@@ -1,4 +1,4 @@
-## Notion VIP Email: June 12, 2023
+## Notion VIP Email: June 20, 2023
 
 Hey gang — 
 
@@ -14,7 +14,7 @@ In a succinct four minutes, here’s a deeper dive into where it came from, what
 
 ---- 
 
-### “Notion Projects” Explained—with Recommendations and Other New Features
+### “Notion Projects” Explained—with Essential Recommendations
 
 ---- 
 
