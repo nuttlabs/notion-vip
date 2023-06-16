@@ -31,7 +31,7 @@ From preset views in the Projects database, you can view projects:
 This `Rollup` displays the percentage of the project’s related tasks marked “Done.” _In my enhanced version, I call it “Progress.”._
 
 #### Is Blocking and Blocked By
-These are reciprocal `Relation` properties. **Is Blocking** is used for to display dependencies in the timeline view.
+These are `Relation` properties. **Is Blocking** is used for to display dependencies in the timeline view.
 
 ### Project Template
 With the Projects database template, when you open a project, its inner page contains:
@@ -53,8 +53,6 @@ With the Projects database template, when you open a project, its inner page con
 I mentioned the new `Unique ID` property type that debuted with Notion Projects. When you configure the property, you specify a prefix, such as “TAS” for tasks. For each item in the database, the `Unique ID` property is populated with the prefix, followed by a unique integer. The integer increments by one as items are created. If an item is deleted, its integer is never reused.
 
 When working with databases, and especially relational databases, it’s important for each record to have a unique identifier. Before the `Unique ID` property type, we could generate a unique ID with the `id()` function within a `Formula` property. With their shorter length and customizable prefixes, the new IDs are much prettier.
-
-I strongly encourage you to use a unique prefix for all databases in your workspace.
 
 #### Parent-task and Sub-tasks
 The are reciprocal `Relation` properties that allow you to divide a task into smaller tasks. Within table and list views, you can enable sub-items. Items containing sub-items then become toggles containing their sub-items. In this case, tasks would display their sub-tasks.
