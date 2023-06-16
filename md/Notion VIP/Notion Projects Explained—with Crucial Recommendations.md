@@ -1,5 +1,5 @@
 
-\<!-- youTube(1SARTgdKHuQ) --\> 
+\<!-- youTube(C6I5GK2FRd0) --\> 
 
 With Notion’s May release came [Notion Projects](https://www.youtube.com/watch?v=9x9GhuiM1Bk). Despite Notion’s heavy promotion, many users remain unsure about what it, exactly, it _is_. 
 
