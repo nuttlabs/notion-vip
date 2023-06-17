@@ -9,6 +9,8 @@ Let’s explore the key components of Notion Projects, along with some essential
 
 ## What’s Notion Projects?
 
+![](https://assets.notion.vip/assets/insights/notion-projects-explained/notion-project-templates.png)
+
 - Notion Projects is a set of preconfigured databases. Within **Templates** in your sidebar, you can choose **Projects & tasks** or **Projects, tasks & sprints**.
 	- The concept of sprints comes from the [Agile](https://asana.com/resources/agile-methodology) project management methodology. Traditionally, they divide a project’s tasks into phases for focused, iterative and agile planning and implementation. Within Notion Projects, a sprint can include tasks from multiple projects.
 - Choosing “Get Template” will add two or three interrelated databases to your workspace, preconfigured with properties and prepopulated with sample content.
