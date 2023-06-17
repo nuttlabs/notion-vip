@@ -21,6 +21,8 @@ Let’s explore the key components of Notion Projects, along with some essential
 
 ## Projects Database
 
+![](https://assets.notion.vip/assets/insights/notion-projects-explained/notion-projects_projects-database.png)
+
 ### Views
 From preset views in the Projects database, you can view projects:
 
@@ -38,6 +40,9 @@ This `Rollup` displays the percentage of the project’s related tasks marked �
 These are `Relation` properties. **Is Blocking** is used for to display dependencies in the timeline view.
 
 ### Project Template
+
+![](https://assets.notion.vip/assets/insights/notion-projects-explained/notion-projects_project-template.png)
+
 With the Projects database template, when you open a project, its inner page contains:
 
 - its related tasks, displayed as a page section;
@@ -45,6 +50,8 @@ With the Projects database template, when you open a project, its inner page con
 - an “About this project” section.
 
 ## Tasks Database
+
+![](https://assets.notion.vip/assets/insights/notion-projects-explained/notion-projects_tasks-database.png)
 
 ### Views
 
@@ -54,6 +61,9 @@ With the Projects database template, when you open a project, its inner page con
 ### Notable Properties
 
 #### Task ID
+
+![](https://assets.notion.vip/assets/insights/notion-projects-explained/notion-projects_unique-id.png)
+
 I mentioned the new `Unique ID` property type that debuted with Notion Projects. When you configure the property, you specify a prefix, such as “TAS” for tasks. For each item in the database, the `Unique ID` property is populated with the prefix, followed by a unique integer. The integer increments by one as items are created. If an item is deleted, its integer is never reused.
 
 When working with databases, and especially relational databases, it’s important for each record to have a unique identifier. Before the `Unique ID` property type, we could generate a unique ID with the `id()` function within a `Formula` property. With their shorter length and customizable prefixes, the new IDs are much prettier.
@@ -65,6 +75,9 @@ I’m surprised to find this configuration absent from the preset views of Tasks
 
 #### Summary
 The **Summary** property utilizes the AI autofill feature capability released alongside Notion Projects.
+
+![](https://assets.notion.vip/assets/insights/notion-projects-explained/notion-projects_ai-auto-update.png)
+
 - AI autofill is an option for `Text` properties.
 - It references the item’s inner page content to perform an action you specify when configuring the property:
 	1. Summarize
@@ -77,12 +90,16 @@ This special property type remains limited to Notion Projects but will likely ma
 
 ### Task Templates
 
+![](https://assets.notion.vip/assets/insights/notion-projects-explained/notion-projects_tasks-templates.png)
+
 - The Tasks database includes templates for the three types of tasks commonly  managed by software teams: tasks, bugs and feature requests.
 - They’re differentiated by the headings repopulated within the page. I’m a heavy proponent of toggle headings, so my enhancements to Notion Projects convert these headings to toggles.
 - I’m quite surprised not to find a database property to indicate the task type (task, bug, or feature request) for grouping and filtering. My template adds a **Task Type** property, automatically populated by the templates and displayed across board views of Tasks.
 
 ## Sprints
 Within [Agile](https://asana.com/resources/agile-methodology) project management, sprints group tasks into phases. That allows you to plan iteratively and focus on a subset of tasks as you conduct your project. Within Notion Projects, a sprint can include tasks from multiple projects.
+
+![](https://assets.notion.vip/assets/insights/notion-projects-explained/notion-projects_sprints-database.png)
 
 If you choose to include sprints when choosing your Notion Projects template, Notion will add a Sprints database, along with a unique page called “Sprint board.”
 
@@ -103,7 +120,10 @@ The page template for sprints displays its tasks as a page section and within li
 The template also includes a “Planning notes” toggle heading with sample bullets to facilitate a planning conversation.
 
 ### “Sprint board”
-“Sprint board” is a unique page with features unseen elsewhere in Notion. Within the three views below, it displays immediately relevant tasks. I’d find the experience more streamlined if these views were part of the Tasks database rather than a separate page.
+
+![](https://assets.notion.vip/assets/insights/notion-projects-explained/notion-projects_sprint-board.png)
+
+"Sprint board” is a unique page with features unseen elsewhere in Notion. Within the three views below, it displays immediately relevant tasks. I’d find the experience more streamlined if these views were part of the Tasks database rather than a separate page.
 
 #### “Current: [Sprint]” View
 This board view displays tasks for the sprint with a status of “Current.” The tasks are grouped (columned) by status and sub-grouped (toggled) by project. 
