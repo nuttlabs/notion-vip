@@ -5,7 +5,7 @@ With Notion’s May release came [Notion Projects](https://www.youtube.com/watch
 
 _Is it new functionality? Is it a template? Is it a methodology?_ In fact, it’s somewhat of a combination.
 
-Let’s explore the key components of Notion Projects, along with some essential recommendations for enhancing the system. In the template _Notion Projects—Enhanced by Notion VIP_, you’ll find those enhancements preconfigured and ready to streamline your project management.
+Let’s explore the key components of Notion Projects, along with some essential recommendations for enhancing the system. In the template [_Notion Projects—Enhanced by Notion VIP_](https://www.notion.vip/product/notion-projects-enhanced-by-notion-vip), you’ll find those enhancements preconfigured and ready to streamline your project management.
 
 ## What’s Notion Projects?
 
