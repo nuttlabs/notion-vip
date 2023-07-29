@@ -25,7 +25,7 @@ When you access the template, you’ll find this sample included for reference.
 
 ### Prepare the Flowcharts database item.
 
-(create-flowcharts-database-item.gif)
+![](https://assets.notion.vip/insights/flowchart-generator/create-flowcharts-database-item.gif)
 
 Within the main page of the generator, you’ll see a **Flowcharts** database. For each flowchart you create, you’ll add an item to this database.
 
