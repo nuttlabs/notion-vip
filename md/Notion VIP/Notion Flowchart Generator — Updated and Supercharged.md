@@ -1,4 +1,6 @@
 
+\<!-- youTube(ixvqwyW6Xbs) --\>
+
 Flowcharts offer a powerful way to visualize workflows and organizational structures. They’re essential to planning and documenting systems of all kinds, especially Notion workspaces.
 
 Much to my surprise, few tools generate flowcharts from structured information, like spreadsheets. Those that do return ugly results and lack customization.
@@ -25,7 +27,7 @@ When you access the template, you’ll find this sample included for reference.
 
 ### Prepare the Flowcharts database item.
 
-![](https://assets.notion.vip/insights/flowchart-generator/create-flowcharts-database-item.gif)
+![](https://assets.notion.vip/assets/insights/flowchart-generator/create-flowcharts-database-item.gif)
 
 Within the main page of the generator, you’ll see a **Flowcharts** database. For each flowchart you create, you’ll add an item to this database.
 
@@ -36,7 +38,7 @@ Within the main page of the generator, you’ll see a **Flowcharts** database. F
 ### Add nodes.
 Nodes are the labeled shapes that represent steps of the flowchart.
 
-(add-nodes.png)
+![](https://assets.notion.vip/assets/insights/flowchart-generator/add-nodes.png)
 
 Within the body of the open database item, you’ll see a Linked Database with two views: **Nodes** and **Styles**.
 
@@ -68,7 +70,7 @@ On the main page of the flowchart generator, I’ve included two resources for s
 
 #### Style Properties
 
-(styles.png)
+![](https://assets.notion.vip/assets/insights/flowchart-generator/styles.png)
 
 When you create a style, you’ll specify six properties. All but **Style Name** have a default value, which you can leave unmodified.
 - **Style Name** — The name should correspond with the type of node that twill use the style, such as “Questions” or “Solutions.”
@@ -82,7 +84,7 @@ When you create a style, you’ll specify six properties. All but **Style Name**
 
 For nodes, the **Style** property is optional. Without an assigned style, nodes will render with a default format.
 
-(assign-style.gif)
+![](https://assets.notion.vip/assets/insights/flowchart-generator/assign-style.gif)
 
 If you’d like to assign a style to a node, clicking into the property will allow you to choose from the **Styles** database.
 
@@ -94,7 +96,7 @@ After creating all nodes, you can copy the code from the **Final Mermaid** prope
 
 ### Test.
 
-(test-mermaid.gif)
+![](https://assets.notion.vip/assets/insights/flowchart-generator/test-mermaid.gif)
 
 Before pasting the code into its final location, you’ll want to ensure it renders the flowchart you want.
 
