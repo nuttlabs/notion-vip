@@ -7,7 +7,7 @@ Much to my surprise, few tools generate flowcharts from structured information, 
 
 When Notion added the ability to display flowcharts in `Code` blocks, I created a simple template for generating the required code from a database. Despite its limited customization options, the tool remains one of the most popular resources on Notion VIP. 
 
-So I decided to supercharge it with an updated version that offers much more customization. Read about it below or watch the walkthrough above, then access the extraordinarily useful tool here.
+So I decided to supercharge it with an updated version that offers much more customization. Read about it below or watch the walkthrough above, then access the extraordinarily useful tool [here](https://www.notion.vip/product/notion-flowchart-generator).
 
 ## Flowcharts in Code Blocks
 Here’s all you need to know about displaying flowcharts in `Code` blocks:
