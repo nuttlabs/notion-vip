@@ -11,6 +11,7 @@ So I decided to supercharge it with an updated version that offers much more cus
 
 ## Flowcharts in Code Blocks
 Here’s all you need to know about displaying flowcharts in `Code` blocks:
+
 - When you add a `Code` block to a Notion page, you choose a programming language.
 - Among the language options is **Mermaid**. [Mermaid](https://mermaid.js.org/) is a syntax for generating charts from text, including flowcharts. No need to spend valuable brain capacity learning it.
 - After selecting Mermaid as the language, you can choose among three display options:
