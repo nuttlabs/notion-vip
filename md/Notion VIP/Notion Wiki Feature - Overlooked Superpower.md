@@ -1,5 +1,6 @@
 
 Notion’s Wiki feature combines the flexibility of pages with the structure of databases. 
+
 - One view acts as a standard page, where you can display any block, wherever you want.
 - Other views display only the “child” pages that occur within the page, just as you’d see pages as items in a database.
 - Like any database, you can choose layouts and assign filtering, sorting and grouping rules, among other database settings.
