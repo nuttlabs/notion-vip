@@ -15,6 +15,9 @@ I’ll explain that hidden feature and an important step to take when initially 
 ## Wiki Fundamentals
 
 ### Create a Wiki
+
+![](https://assets.notion.vip/insights/wiki/notion-wiki_turn-into-wiki.png)
+
 - Within any page that’s not a database item, you can `Turn into wiki` from the `•••` menu.
 - That will make the page full-width add a line below the page’s title. 
 - At the top-right is a `Search` button. Clicking it prompts Notion’s standard search feature, pre-filtered for the current page.
