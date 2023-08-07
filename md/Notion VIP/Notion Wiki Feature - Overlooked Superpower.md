@@ -8,9 +8,9 @@ Notion’s Wiki feature combines the flexibility of pages with the structure of 
 
 If you’ve seen any of my other resources, you know that my #1 rule is to utilize the structure of databases for all information in your workspace rather than freely entering content. So you can imagine how much I love the ability to do both with Notion Wikis.
 
-But there’s actually a hidden capability of Wikis that makes them extra useful. It’s the reason I recommend using a Wiki for the top-level page and the Resources database within any Notion workspace, just as I’ve done in the Bulletproof Workspace template that’s so widely implemented by Notion users. 
+But there’s actually a hidden capability of Wikis that makes them extra useful. It’s the reason I recommend using a Wiki for the top-level page and the Resources database within any Notion workspace, just as I’ve done in the [Bulletproof Workspace](https://notion.vip/bulletproof) template that’s so widely implemented by Notion users. 
 
-I’ll explain that hidden feature and an important step to take when initially creating Wikis, which I’ve preconfigured in a template you can duplicate. But first, let’s explore the fundamentals of Notion Wikis.
+I’ll explain that hidden feature and an important step to take when initially creating Wikis, which I’ve preconfigured in [a template](www.notion.vip/product/notion-wiki-starter) you can duplicate. But first, let’s explore the fundamentals of Notion Wikis.
 
 ## Wiki Fundamentals
 
@@ -84,8 +84,8 @@ Because a database or Wiki can’t be added to an existing Wiki, we must follow 
 
 That gives you a Wiki within a Wiki. Each of those Wikis contains a boilerplate database that can be easily duplicated when you want to add databases as Wiki items.
 
-For you to add to your workspace or reference for validation, I have a template available with these configurations in place.
+For you to add to your workspace or reference for validation, I have [a template](www.notion.vip/product/notion-wiki-starter) available with these configurations in place.
 
-And of course, it’s available to all members of Notion A-to-Z, along with the full Bulletproof template with all related and templatized master databases.
+And of course, it’s available to all members of [Notion A-to-Z](https://premier.notion.vip/a-to-z), along with the full Bulletproof template with all related and templatized master databases.
 
 If you’re not yet a member of A-to-Z, we’d love to have you aboard so you can make the most of Notion.
