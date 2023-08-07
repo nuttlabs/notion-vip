@@ -16,7 +16,7 @@ I’ll explain that hidden feature and an important step to take when initially 
 
 ### Create a Wiki
 
-![](https://assets.notion.vip/insights/wiki/notion-wiki_turn-into-wiki.png)
+![](https://assets.notion.vip/assets/insights/wikis/notion-wiki_turn-into-wiki.png)
 
 - Within any page that’s not a database item, you can `Turn into wiki` from the `•••` menu.
 - That will make the page full-width add a line below the page’s title. 
@@ -24,11 +24,17 @@ I’ll explain that hidden feature and an important step to take when initially 
 - At the top-left, is a view picker, just like a database.
 
 ### Home View
+
+![](https://assets.notion.vip/assets/insights/wikis/notion-wiki_home-view.png)
+
 The default `Home` view is the freeform page view that’s unique to Wikis. 
 - It displays all blocks within the page, including headings, callouts and dividers. 
 - You can arrange blocks however you like, as in the body of any Notion page.
 
 ### Database Views
+
+![](https://assets.notion.vip/assets/insights/wikis/notion-wiki_database-view.png)
+
 The other views, including defaults and others you create, are database views.
 - They display only the Wiki’s sub-pages, structured as a database.
 - As with any database, you can choose a layout; add sorting, filtering and grouping rules; and add and selectively display properties.
@@ -40,6 +46,9 @@ You can add any of Notion’s standard database properties to Wiki items. But th
 - **Verification** — This is a unique property type that helps teams keep content current. Page owners can choose a date through which the page remains verified, as indicated by a blue check. Upon expiration, Page owners are notified to reverify the page.
 
 #### Horizontal Properties
+
+![](https://assets.notion.vip/assets/insights/wikis/notion-wiki_horizontal-properties.png)
+
 When you open a Wiki item as a page, its properties display horizontally rather than the vertical arrangement of standard database items. You still have the option to selectively display or hide them.
 
 ## The Superpower: Databases as Items
@@ -53,6 +62,9 @@ Because Wiki items can be databases, the Resources database and top-level HQ pag
 There’s a critical caveat to using databases within Wiki: You must have at least one database in place when you convert the page to a Wiki. After creating the Wiki, you can _duplicate_ an inner database, but you can’t add one from elsewhere in the workspace.
 
 ## Wikis within the Bulletproof Framework
+
+![](https://assets.notion.vip/assets/insights/wikis/notion-wiki_bulletproof.png)
+
 The latest version of my Bulletproof Workspace uses two Wikis:
 
 1. The **Resources** database, which is the catch-all database for documents, non-master databases and items that don’t fit a master database
