@@ -30,6 +30,7 @@ I’ll explain that hidden feature and an important step to take when initially 
 ![](https://assets.notion.vip/assets/insights/wikis/notion-wiki_home-view.png)
 
 The default `Home` view is the freeform page view that’s unique to Wikis. 
+
 - It displays all blocks within the page, including headings, callouts and dividers. 
 - You can arrange blocks however you like, as in the body of any Notion page.
 
@@ -38,12 +39,14 @@ The default `Home` view is the freeform page view that’s unique to Wikis.
 ![](https://assets.notion.vip/assets/insights/wikis/notion-wiki_database-view.png)
 
 The other views, including defaults and others you create, are database views.
+
 - They display only the Wiki’s sub-pages, structured as a database.
 - As with any database, you can choose a layout; add sorting, filtering and grouping rules; and add and selectively display properties.
 - A default **All pages** view displays all pages within a table. **Pages I own** displays only the pages where the viewer is designated as the **Owner**, which I explain next.
 
 ### Wiki Item Properties
 You can add any of Notion’s standard database properties to Wiki items. But they contain two special properties that can be hidden but not deleted:
+
 - **Owner** — This is a `Person` property that’s populated by default with the user who creates the Wiki. This is the property that informs the default **Pages I own** view.
 - **Verification** — This is a unique property type that helps teams keep content current. Page owners can choose a date through which the page remains verified, as indicated by a blue check. Upon expiration, Page owners are notified to reverify the page.
 
