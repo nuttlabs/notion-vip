@@ -12,7 +12,7 @@ If you’ve seen any of my other resources, you know that my #1 rule is to utili
 
 But there’s actually a hidden capability of Wikis that makes them extra useful. It’s the reason I recommend using a Wiki for the top-level page and the Resources database within any Notion workspace, just as I’ve done in the [Bulletproof Workspace](https://notion.vip/bulletproof) template that’s so widely implemented by Notion users. 
 
-I’ll explain that hidden feature and an important step to take when initially creating Wikis, which I’ve preconfigured in [a template](www.notion.vip/product/notion-wiki-starter) you can duplicate. But first, let’s explore the fundamentals of Notion Wikis.
+I’ll explain that hidden feature and an important step to take when initially creating Wikis, which I’ve preconfigured in [a template](https://www.notion.vip/product/notion-wiki-starter) you can duplicate. But first, let’s explore the fundamentals of Notion Wikis.
 
 ## Wiki Fundamentals
 
