@@ -1,4 +1,6 @@
 
+\<!-- youTube(/1aeeiu8_Tg8) --\>
+
 When you purchase a template from a Notion creator, you typically add it to your workspace by duplicating a page, which often contains sub-pages. That’s as simple as clicking `Duplicate` at the top-right of the page — but the button is often missing when users need it.
 
 Let’s see what determines whether that duplicate button is visible.
@@ -6,6 +8,7 @@ Let’s see what determines whether that duplicate button is visible.
 ### App Links vs. Web Links
 
 Notion pages are accessible through two different domains — `notion.so` and `notion.site`: 
+
 1. `notion.so/[Workspace Domain]/...` — When signed-in users visit a page from its `notion.so` URL, they’re accessing it through the Notion app. They can use all capabilities of Notion within their permission level for the page.
 2. `[Workspace Domain].notion.site` — When a page is published, it gets a **web link**, which has a `notion.site` URL. That URL is accessible in a read-only format by anyone on the web, just like a web page.
 
