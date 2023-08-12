@@ -1,6 +1,6 @@
 .p-atoz_ivansection {
     clip-path: polygon(0 0, 100% 50px, 100% 100%, 0 calc(100% - 50px));
-    margin-bottom: -50px;
+    margin: -50px auto;
     position: relative;
     z-index: 1;
 }
