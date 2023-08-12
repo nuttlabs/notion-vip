@@ -69,12 +69,6 @@ body {
     width: 100%;
 }
 
-/* Text links */
-p a,
-li a {
-    border-bottom: 1px solid var(--color--pink);
-}
-
 
 /* Nested lists */
 ul ul,
