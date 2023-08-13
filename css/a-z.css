@@ -3,7 +3,9 @@
 }
 
 @media screen and (max-width: 767px) {
-    clip-path: polygon(0 0, 100% 30px, 100% 100%, 0 100%);
+    .p-atoz_ivansection {
+        clip-path: polygon(0 0, 100% 30px, 100% 100%, 0 100%);
+    }
 }
 
 .p-atoz_infosection {
