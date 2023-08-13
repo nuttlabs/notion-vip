@@ -1,6 +1,7 @@
 .p-atoz_ivansection {
     clip-path: polygon(0 0, 100% 50px, 100% 100%, 0 calc(100% - 50px));
-    margin: -50px auto;
-    position: relative;
-    z-index: 1;
+}
+
+.p-atoz_infosection {
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 50px), 0 100%);
 }
