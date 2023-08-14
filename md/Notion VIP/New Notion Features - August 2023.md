@@ -16,4 +16,4 @@ Here’s each teacher with its timestamp:
 - **02:51** — Quick add end dates with `Shift` + `Click`
 - **03:05** — Cached pages on mobile for faster loading
 
-[Stay tuned](https://notion.vip) for guides for the most notable new features.
+[Stay tuned](https://notion.vip) for Notion VIP guides to the most notable new features.
