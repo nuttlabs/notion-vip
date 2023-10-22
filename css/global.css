@@ -107,6 +107,7 @@ figcaption code {
 figcaption {
     font-size: .82em;
     text-align: left;
+    margin-top: 15px;
 }
 
 /* Asides */
