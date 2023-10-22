@@ -1,16 +1,16 @@
 /*
  * ----------------------------- \\
- * First item in post body (Rich Text)
+ * First paragraph
  * ----------------------------- //
 */
 
-.p-insight .section.is--textcontent > .w-richtext > *:first-child {
+.p-insight .section.is--textcontent > .w-richtext > p:first-of-type {
     margin-top: 30px;
 }
 
 /*
  * ----------------------------- \\
- * End First item in post body (Rich Text)
+ * End first paragraph
  * ----------------------------- //
 */
 
