@@ -94,7 +94,8 @@ code {
 
 /* Figures */
 figure {
-    margin: 30px auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 /* Figure captions */
